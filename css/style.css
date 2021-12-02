@@ -51,33 +51,15 @@ body {
     color: #fff;
 }
 .content__text{
-    margin: 40px;
-}
-.content__text:first-child{
-    margin: 0;
     padding: 40px;
 }
-.content__1{
-    background-color: #926239;
-    text-align: center;
-    margin: 0;
-    color: #fff;
+.content__text:nth-child(odd){
+    color: white;
+    background: #926239;
 }
-.content__2{
-    text-align: center;
+.content__text:nth-child(even){
     color: #926239;
 }
 .content__wrapper{
     display: flex;
-}
-.content__3{
-    background-color: #926239;
-    color: #fff;
-}
-.content__4{
-    color: #926239;
-}
-.content__5{
-    background-color: #926239;
-    color: #fff;
 }
