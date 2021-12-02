@@ -1,0 +1,83 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin: 0;
+}
+body {
+    font-family: "Outfit", sans-serif;
+    font-size: 16px;
+    margin: 0;
+}
+.header {
+    background-image: url(../img/bg.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 0 20px;
+    color: #926239;
+}
+.header__wrapper {
+    text-align: center;
+}
+.header__title {
+    font-size: 80px;
+    margin-bottom: 20px;
+}
+.header__text{
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+.header__btn {
+    background-color: transparent;
+    border: 1px solid #926239;
+    font-size: 20px;
+    padding: 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all 0.3s;
+    color: #926239;
+}
+.header__btn:hover {
+    background-color: #926239;
+    color: #fff;
+}
+.content__text{
+    margin: 40px;
+}
+.content__text:first-child{
+    margin: 0;
+    padding: 40px;
+}
+.content__1{
+    background-color: #926239;
+    text-align: center;
+    margin: 0;
+    color: #fff;
+}
+.content__2{
+    text-align: center;
+    color: #926239;
+}
+.content__wrapper{
+    display: flex;
+}
+.content__3{
+    background-color: #926239;
+    color: #fff;
+}
+.content__4{
+    color: #926239;
+}
+.content__5{
+    background-color: #926239;
+    color: #fff;
+}
