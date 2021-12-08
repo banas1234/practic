@@ -6,6 +6,7 @@ h5,
 h6,
 p {
     margin: 0;
+    padding: 0;
 }
 body {
     font-family: "Outfit", sans-serif;
@@ -17,22 +18,19 @@ body {
     background-size: cover;
     background-position: center;
     height: 100vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
     text-align: center;
     padding: 0 20px;
     color: #926239;
 }
 .header__wrapper {
     text-align: center;
+    padding-top: 300px;
 }
 .header__title {
     font-size: 80px;
     margin-bottom: 20px;
 }
-.header__text{
+.header__text {
     font-size: 25px;
     margin-bottom: 20px;
 }
@@ -50,34 +48,30 @@ body {
     background-color: #926239;
     color: #fff;
 }
-.content__text{
-    margin: 40px;
+.content {
+    font-size: 0;
 }
-.content__text:first-child{
-    margin: 0;
-    padding: 40px;
+.content__text {
+    padding: 20px;
+    font-size: 16px;
 }
-.content__1{
-    background-color: #926239;
+.content__item {
+    width: 100%;
+    display: inline-block;
+}
+.content__item-1,
+.content__item-2 {
+    width: 100%;
     text-align: center;
-    margin: 0;
-    color: #fff;
 }
-.content__2{
-    text-align: center;
-    color: #926239;
+.content__item-3,
+.content__item-4,
+.content__item-5 {
+    width: 33.33%;
 }
-.content__wrapper{
-    display: flex;
-}
-.content__3{
-    background-color: #926239;
-    color: #fff;
-}
-.content__4{
-    color: #926239;
-}
-.content__5{
-    background-color: #926239;
+.content__item-1,
+.content__item-3,
+.content__item-5 {
+    background: #926239;
     color: #fff;
 }
